@@ -1,0 +1,1 @@
+sap.ui.define(["./library"],function(t){"use strict";const o={addMetadata:function(t){t.properties.colorContext={type:"nep.bootstrap.ColorContext"}},getColorContext:function(t,o){return t?" "+o+"-"+t.toLowerCase():""},createStyleClass:function(t,e,n){return o.getColorContext(e.getColorContext(),n)}};return o});
